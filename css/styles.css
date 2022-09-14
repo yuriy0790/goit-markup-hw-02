@@ -1,0 +1,73 @@
+:root {
+  --primary-text-color: #757575;
+  --title-primary-text-color: #212121;
+  --title-secondary-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+
+/* Формат логотипа */
+.logo {
+  color: #000000;
+}
+.page-footer .logo {
+  color: var(--title-secondary-text-color);
+}
+/* Половину логотипа делает #2196F3 */
+.logo span {
+  color: #2196f3;
+}
+
+/* Убирает форматирование списков */
+.list {
+  list-style: none;
+}
+
+/* Навигация по сайту */
+.site-nav .link {
+  color: var(--title-primary-text-color);
+}
+.site-nav .link:hover {
+  color: var(--accent-color);
+}
+
+/* Список контактов */
+.contact-list .contact {
+  color: var(--primary-text-color);
+}
+.contact-list .contact:hover {
+  color: var(--accent-color);
+}
+
+/* Кнопки фильтра */
+.filter-buttons-list .filter-button {
+  color: var(--title-primary-text-color);
+  background-color: #f5f4fa;
+}
+.filter-buttons-list .filter-button:hover {
+  color: var(--title-secondary-text-color);
+  background-color: var(--accent-color);
+}
+
+/* Секция превью проектов */
+.projects-preview-list .project-preview-name {
+  color: var(--title-primary-text-color);
+}
+
+/* Список контактов в подвале*/
+.page-footer .address-footer {
+  color: var(--title-secondary-text-color);
+}
+.contact-list .contact-footer {
+  color: rgb(255, 255, 255, 0.6);
+}
+.contact-list .contact-footer:hover {
+  color: var(--accent-color);
+}
+.page-footer {
+  background-color: #2f303a;
+}
