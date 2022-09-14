@@ -3,6 +3,8 @@
   --title-primary-text-color: #212121;
   --title-secondary-text-color: #ffffff;
   --accent-color: #2196f3;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
 }
 
 body {
@@ -19,7 +21,7 @@ body {
 }
 /* Половину логотипа делает #2196F3 */
 .logo span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Убирает форматирование списков */
@@ -43,10 +45,41 @@ body {
   color: var(--accent-color);
 }
 
+/* Секция-герой */
+.hero-zone {
+  background-color: var(--primary-background-color);
+}
+.hero-zone .hero-header {
+  color: var(--title-secondary-text-color);
+}
+.hero-zone .hero-button {
+  color: var(--title-secondary-text-color);
+  background-color: var(--accent-color);
+}
+.hero-zone .hero-button:hover {
+  color: var(--title-primary-text-color);
+  background-color: var(--secondary-background-color);
+}
+
+/* Секция Преимущества */
+.benefits-list .benefit-header {
+  color: var(--title-primary-text-color);
+}
+
+/* секция Чим займаємося */
+.section-header {
+  color: var(--title-primary-text-color);
+}
+
+/* Секция Наша команда */
+.team-list .teammate-name {
+  color: var(--title-primary-text-color);
+}
+
 /* Кнопки фильтра */
 .filter-buttons-list .filter-button {
   color: var(--title-primary-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-color);
 }
 .filter-buttons-list .filter-button:hover {
   color: var(--title-secondary-text-color);
@@ -69,5 +102,5 @@ body {
   color: var(--accent-color);
 }
 .page-footer {
-  background-color: #2f303a;
+  background-color: var(--primary-background-color);
 }
