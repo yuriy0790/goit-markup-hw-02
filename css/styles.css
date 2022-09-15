@@ -52,6 +52,11 @@ roboto 700 */
   background-color: var(--secondary-background-color);
 }
 
+/* Курсор указатель для кнопок */
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /* Навигация по сайту */
 .site-nav .link {
   color: var(--title-primary-text-color);
