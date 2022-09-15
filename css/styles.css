@@ -68,10 +68,12 @@ roboto 700 */
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.site-nav .current,
 .site-nav .link:focus,
 .site-nav .link:hover {
   color: var(--accent-color);
 }
+.site-nav .current 
 
 /* Список контактов */
 .contact-list .contact {
