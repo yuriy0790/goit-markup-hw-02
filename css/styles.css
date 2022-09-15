@@ -47,6 +47,11 @@ roboto 700 */
   text-decoration: none;
 }
 
+/* Фон чередующихся секций */
+.section-background {
+  background-color: var(--secondary-background-color);
+}
+
 /* Навигация по сайту */
 .site-nav .link {
   color: var(--title-primary-text-color);
