@@ -37,7 +37,7 @@ roboto 700 */
   color: var(--title-secondary-text-color);
 }
 /* Половину логотипа делает #2196F3 */
-.logo > span {
+.logo .halflogo {
   color: var(--accent-color);
 }
 
