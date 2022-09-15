@@ -131,7 +131,7 @@ roboto 700 */
   line-height: 1.14;
   text-transform: uppercase;
 }
-.benefit-header p {
+.benefit-header .plaintext {
   /* font-weight: 400; значение для параграфа умолчанию */
   /* font-size: 14px; наследуется из боди */
   line-height: 1.71;
@@ -147,7 +147,7 @@ roboto 700 */
   line-height: 1.19;
   text-align: center;
 }
-.team-list p {
+.team-list .teammate-position {
   /* font-weight: 400 значение для параграфа умолчанию */
   font-size: 16px;
   line-height: 1.19;
@@ -178,7 +178,7 @@ roboto 700 */
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.projects-preview-list p {
+.projects-preview-list .project-type {
   /* font-weight: 400; значение для параграфа умолчанию */
   font-size: 16px;
   line-height: 1.88;
