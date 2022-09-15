@@ -60,6 +60,7 @@ roboto 700 */
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.site-nav .link:focus,
 .site-nav .link:hover {
   color: var(--accent-color);
 }
@@ -72,6 +73,7 @@ roboto 700 */
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.contact-list .contact:focus,
 .contact-list .contact:hover {
   color: var(--accent-color);
 }
@@ -107,7 +109,8 @@ roboto 700 */
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
-.hero-zone .hero-button:hover {
+.hero-zone .hero-button:hover,
+.hero-zone .hero-button:focus {
   color: var(--title-primary-text-color);
   background-color: var(--secondary-background-color);
 }
@@ -153,6 +156,7 @@ roboto 700 */
   line-height: 1.62;
   text-align: center;
 }
+.filter-buttons-list .filter-button:focus,
 .filter-buttons-list .filter-button:hover {
   color: var(--title-secondary-text-color);
   background-color: var(--accent-color);
@@ -189,6 +193,7 @@ font-size: 16px; */
   font-size: 14px;
   line-height: 1.71;
 }
+.contact-list .contact-footer:focus,
 .contact-list .contact-footer:hover {
   color: var(--accent-color);
 }
