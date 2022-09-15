@@ -2,15 +2,18 @@
   --primary-text-color: #757575;
   --title-primary-text-color: #212121;
   --title-secondary-text-color: #ffffff;
-  --accent-color: #2196f3;
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
+  --page-background: #ffffff;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
 }
 
 body {
   color: var(--primary-text-color);
-  background-color: #ffffff;
+  background-color: var(--page-background);
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
@@ -23,7 +26,7 @@ roboto 700 */
 
 /* Формат логотипа */
 .logo {
-  color: #000000;
+  color: var(--logo-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -61,7 +64,7 @@ roboto 700 */
 .site-nav .link {
   color: var(--title-primary-text-color);
   font-weight: 500;
-  font-size: 14px;
+  /* font-size: 14px; наследуется из боди */
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -74,7 +77,7 @@ roboto 700 */
 .contact-list .contact {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
+  /* font-size: 14px; наследуется из боди */
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -86,7 +89,7 @@ roboto 700 */
 /* Заголовки секций */
 .section-header {
   color: var(--title-primary-text-color);
-  /* font-weight: 700; */
+  /* font-weight: 700; значение для заголовков умолчанию*/
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -110,7 +113,7 @@ roboto 700 */
   background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
@@ -123,14 +126,14 @@ roboto 700 */
 /* Секция Преимущества */
 .benefits-list .benefit-header {
   color: var(--title-primary-text-color);
-  /* font-weight: 700; */
+  /* font-weight: 700; значение для заголовков умолчанию*/
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .benefit-header p {
-  /* font-weight: 400; */
-  font-size: 14px;
+  /* font-weight: 400; значение для параграфа умолчанию */
+  /* font-size: 14px; наследуется из боди */
   line-height: 1.71;
 }
 
@@ -140,13 +143,13 @@ roboto 700 */
 .team-list .teammate-name {
   color: var(--title-primary-text-color);
   font-weight: 500;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 .team-list p {
-  /* font-weight: 400;
-  font-size: 16px; */
+  /* font-weight: 400 значение для параграфа умолчанию */
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
@@ -157,7 +160,7 @@ roboto 700 */
   background-color: var(--secondary-background-color);
   font-family: inherit;
   font-weight: 500;
-  /* font-size: 16px; */
+  font-size: 16px;
   line-height: 1.62;
   text-align: center;
 }
@@ -170,14 +173,14 @@ roboto 700 */
 /* Секция превью проектов */
 .projects-preview-list .project-preview-name {
   color: var(--title-primary-text-color);
-  /* font-weight: 700; */
+  /* font-weight: 700; значение для заголовков умолчанию*/
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .projects-preview-list p {
-  /* font-weight: 400;
-font-size: 16px; */
+  /* font-weight: 400; значение для параграфа умолчанию */
+  font-size: 16px;
   line-height: 1.88;
 }
 /* Футер */
@@ -187,15 +190,15 @@ font-size: 16px; */
 /* Адрес в футере*/
 .page-footer .address-footer {
   color: var(--title-secondary-text-color);
-  /* font-weight: 400; */
-  font-size: 14px;
+  /* font-weight: 400; значение для параграфа умолчанию*/
+  /* font-size: 14px; наследуется из боди */
   line-height: 1.71;
 }
 /* Имейл и телефон */
 .contact-list .contact-footer {
   color: rgb(255, 255, 255, 0.6);
   /* font-weight: 400; */
-  font-size: 14px;
+  /* font-size: 14px; наследуется из боди */
   line-height: 1.71;
 }
 .contact-list .contact-footer:focus,
