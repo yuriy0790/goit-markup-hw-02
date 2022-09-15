@@ -192,6 +192,7 @@ roboto 700 */
   color: var(--title-secondary-text-color);
   /* font-weight: 400; значение для параграфа умолчанию*/
   /* font-size: 14px; наследуется из боди */
+  font-style: normal;
   line-height: 1.71;
 }
 /* Имейл и телефон */
@@ -199,6 +200,7 @@ roboto 700 */
   color: rgb(255, 255, 255, 0.6);
   /* font-weight: 400; */
   /* font-size: 14px; наследуется из боди */
+  font-style: normal;
   line-height: 1.71;
 }
 .contact-list .contact-footer:focus,
